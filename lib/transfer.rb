@@ -19,4 +19,5 @@ class Transfer
      amount -= sender.balance && amount += sender.balance
      self.status = "complete"
    end
+ end
 end
