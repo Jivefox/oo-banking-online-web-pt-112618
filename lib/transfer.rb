@@ -15,5 +15,5 @@ class Transfer
  end
  
  def execute_transfer
-   self.valid?
+   if self.valid?
 end
