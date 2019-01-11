@@ -26,7 +26,10 @@ class Transfer
  end
  
  def reverse_tranfser
-    
+    if self.status == "rejected"
+      receiver.balance -= amount
+      sender.balance += amount
+    end
  end
  
 end
