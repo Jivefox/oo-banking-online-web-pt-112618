@@ -15,5 +15,5 @@ class Transfer
  end
  
  def execute_transfer
-   if self.valid?
+   if self.valid? amout -= sender.balance && amount += sender.balance
 end
