@@ -25,7 +25,8 @@ class Transfer
    end
  end
  
- def reverse_transer
+ def reverse_tranfser
    
  end
+ 
 end
