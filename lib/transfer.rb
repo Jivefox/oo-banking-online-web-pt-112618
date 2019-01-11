@@ -11,6 +11,6 @@ class Transfer
  end
  
  def valid?
-   account = 
+   sender.valid?
  end
 end
