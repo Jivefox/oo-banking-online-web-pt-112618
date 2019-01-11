@@ -15,5 +15,6 @@ class Transfer
  end
  
  def execute_transfer
-   if self.valid? && sender.balance > amout  amount -= sender.balance && amount += sender.balance
+   if self.valid? && sender.balance > amout && self.status == "pending"
+     amount -= sender.balance && amount += sender.balance
 end
